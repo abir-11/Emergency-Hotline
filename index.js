@@ -69,8 +69,9 @@ for(let copyCounts of copyCount){
     })
 }
 
-//const date =new Date().toLocaleTimeString();
-// document.getElementById('clear-btn').addEventListener('click',function(e){
-//    e.preventDefault();
-
-// })
+//clear-button
+ document.getElementById('clear-btn').addEventListener('click',function(e){
+   e.preventDefault();
+   document.getElementById('history-cointainer').innerHTML="";
+   c
+ })
