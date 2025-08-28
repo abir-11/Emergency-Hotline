@@ -34,12 +34,12 @@ for(let call of callBtn){
         const cointainer=  document.getElementById('history-cointainer');
        
            const div=  document.createElement('div');
-         div.innerHTML=` <div class="flex justify-between gap-12 sm:gap-0 items-center bg-[#FAFAFA]  p-4 my-4">
+         div.innerHTML=` <div class="flex justify-between items-center bg-[#FAFAFA]  p-2 my-4 rounded-xl">
                 <div>
-                    <h3 class="font-inter text-xl font-semibold text-[#111111]">${head}</h3>
-                    <p class="font-hind-madurai text-[18px] text-[#5C5C5C]">${callNumber}</p>
+                    <h3 class="font-inter  font-semibold text-[#111111]">${head}</h3>
+                    <p class="font-hind-madurai  text-[#5C5C5C]">${callNumber}</p>
                 </div>
-                <p class="font-hind-madurai text-[18px] text-[#111111]">${date}</p>
+                <p class="font-hind-madurai text-[#111111]">${date}</p>
              </div>`
             
         
